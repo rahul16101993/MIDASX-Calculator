@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MIDASX — Arjun One-Pager (AI Only ₹25k)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f4f6fa;
+    color: #1a2233;
+    padding: 24px;
+    line-height: 1.35;
+  }
+  .page {
+    max-width: 920px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #d6dee8;
+    border-radius: 8px;
+    padding: 28px 32px;
+    box-shadow: 0 2px 10px rgba(0,40,80,0.06);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px solid #00aaff;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  .brand { font-size: 22px; font-weight: 700; color: #00aaff; letter-spacing: 2px; }
+  .brand .sub { color: #1a2233; font-size: 14px; font-weight: 600; letter-spacing: 1px; margin-left: 8px; }
+  .meta { font-size: 11px; color: #6b7588; text-transform: uppercase; letter-spacing: 1px; }
+  h1 {
+    font-size: 24px;
+    color: #1a2233;
+    margin-bottom: 4px;
+  }
+  h1 .tag {
+    display: inline-block;
+    background: #00aaff;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 14px;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 8px;
+    letter-spacing: 1px;
+  }
+  .subtitle {
+    color: #4a5568;
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 18px;
+  }
+  .grid.three { grid-template-columns: 1fr 1fr 1fr; }
+  .box {
+    border: 1px solid #dde4ee;
+    border-radius: 6px;
+    padding: 12px 14px;
+    background: #fbfcfe;
+  }
+  .box h2 {
+    font-size: 11px;
+    color: #00aaff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e3e9f2;
+    padding-bottom: 6px;
+  }
+  .box ul { list-style: none; padding: 0; }
+  .box li {
+    font-size: 12.5px;
+    padding: 3px 0;
+    color: #2c3a52;
+  }
+  .box li::before {
+    content: "▸";
+    color: #00aaff;
+    margin-right: 6px;
+    font-weight: bold;
+  }
+  .box .num {
+    font-size: 22px;
+    font-weight: 700;
+    color: #00aaff;
+    display: block;
+    line-height: 1.1;
+  }
+  .box .num + .label {
+    font-size: 11px;
+    color: #6b7588;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px; margin: 14px 0; }
+  .stat {
+    text-align: center;
+    background: #f0f7ff;
+    border: 1px solid #cce5ff;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  .quote {
+    background: #0b0f17;
+    color: #e0e6ed;
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin: 14px 0;
+    font-size: 13px;
+    font-style: italic;
+    border-left: 4px solid #00aaff;
+  }
+  .quote .who {
+    display: block;
+    margin-top: 6px;
+    color: #00d4ff;
+    font-style: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .section-title {
+    font-size: 13px;
+    color: #00aaff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 18px 0 8px;
+    font-weight: 700;
+  }
+  table.demo {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  table.demo th, table.demo td {
+    border: 1px solid #dde4ee;
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.demo th {
+    background: #00aaff;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  table.demo td:first-child { width: 22%; font-weight: 600; }
+  footer {
+    margin-top: 18px;
+    padding-top: 10px;
+    border-top: 1px solid #dde4ee;
+    font-size: 10px;
+    color: #6b7588;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .tagline { font-style: italic; }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { box-shadow: none; border: none; padding: 18px; }
+    @page { margin: 10mm; size: A4; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="brand">MIDASX <span class="sub">| Vijya Fintech</span></div>
+    <div class="meta">RM Field One-Pager · v1</div>
+  </header>
+
+  <h1>Arjun — The Digital-Native New MFD <span class="tag">AI Only · ₹25,000/yr</span></h1>
+  <div class="subtitle">24-32 yrs · Fresh ARN · Content-first · Pan-India online · 50–250 investors · ₹2–30 Cr AUM</div>
+
+  <div class="row">
+    <div class="stat"><span class="num" style="font-size:18px; color:#00aaff;">9 days</span><br><span style="font-size:10px; color:#6b7588;">AVG CYCLE</span></div>
+    <div class="stat"><span class="num" style="font-size:18px; color:#00aaff;">35–45%</span><br><span style="font-size:10px; color:#6b7588;">WIN RATE S2→CLOSE</span></div>
+    <div class="stat"><span class="num" style="font-size:18px; color:#00aaff;">₹22.5k</span><br><span style="font-size:10px; color:#6b7588;">PRICE FLOOR (10%)</span></div>
+    <div class="stat"><span class="num" style="font-size:18px; color:#00aaff;">~40%</span><br><span style="font-size:10px; color:#6b7588;">18-MO UPGRADE TO PRO+AI</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="box">
+      <h2>Top 4 Pains</h2>
+      <ul>
+        <li>200 small investors, no scalable nudges</li>
+        <li>Can't afford ₹50k+ tools but knows they help</li>
+        <li>Burnout from manual ops, no time for content</li>
+        <li>Wants to look credible on Instagram vs incumbents</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>What He Says vs What He Buys On</h2>
+      <ul>
+        <li><b>Says:</b> "Cheapest plan with AI."</li>
+        <li><b>Buys on:</b> Per-investor unit economics</li>
+        <li><b>Buys on:</b> WhatsApp-shareable Avatar videos</li>
+        <li><b>Buys on:</b> AI that 10x's content creation</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Buying Triggers</h2>
+      <ul>
+        <li>Hit 100 investors, broke under op load</li>
+        <li>Saw competitor post AI portfolio video</li>
+        <li>Onboarded first HNI — needs to look pro</li>
+        <li>Content cycle stalling, needs leverage</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Where to Find Him</h2>
+      <ul>
+        <li>Instagram / YouTube / X finance creators</li>
+        <li>AMFI new ARN list (last 24 months)</li>
+        <li>BSE Star MF onboarding webinars</li>
+        <li>Referrals from existing Pro+AI customers</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-title">7 Discovery Questions</div>
+  <div class="box" style="padding: 10px 14px;">
+    <ol style="margin: 0; padding-left: 18px; font-size: 12.5px; color: #2c3a52;">
+      <li>Walk me through how you got your first 50 investors.</li>
+      <li>How many investors today, and what's your average ticket?</li>
+      <li>How much of your week goes to content vs operations?</li>
+      <li>What's the one thing slowing you down right now? <i>(write verbatim)</i></li>
+      <li>Show me how you send a portfolio review today. <i>(screenshare)</i></li>
+      <li>What tools do you pay for today, and total monthly burn?</li>
+      <li>What would you build if you had 2 free hours a day?</li>
+    </ol>
+  </div>
+
+  <div class="section-title">Demo — Three Wow Moments (45 min)</div>
+  <table class="demo">
+    <tr><th>Block</th><th>What to Show</th><th>Why It Closes</th></tr>
+    <tr><td>1. Avatar Wow (10 min)</td><td>Generate 30-sec video portfolio with his face. Send to <b>his</b> WhatsApp live.</td><td>He forwards it to a peer mid-call. Conversion +30%.</td></tr>
+    <tr><td>2. AI Wow (10 min)</td><td>Portfolio Genius AI drafts HNI review. AI assistant writes 5 reel hooks.</td><td>He mentally counts hours/week saved.</td></tr>
+    <tr><td>3. Economics Wow (10 min)</td><td>Open pricing.html live: ₹25k ÷ 200 investors = ₹125/inv/yr.</td><td>"Rounding error on your trail."</td></tr>
+    <tr><td>Final 15 min</td><td>Silence. Let him talk. Notes only.</td><td>Do NOT pitch.</td></tr>
+  </table>
+
+  <div class="section-title">Top 3 Objections (Quick Hits)</div>
+  <table class="demo">
+    <tr><th>Objection</th><th>Counter</th></tr>
+    <tr><td>"₹25k is a lot."</td><td>One HNI lost = trail of ₹6k/yr × 10 yrs. Question is whether you want to look like every other new MFD.</td></tr>
+    <tr><td>"My competitor uses free tools."</td><td>Show me his Instagram. Show me yours. Now ask why you're the one researching paid platforms.</td></tr>
+    <tr><td>"Can I cancel anytime?"</td><td>30-day pro-rata refund, on WhatsApp, no contract clause. Rule, not loophole.</td></tr>
+  </table>
+
+  <div class="section-title">The Close — Pick One</div>
+  <div class="grid three">
+    <div class="box">
+      <h2>Send-It-To-Yourself</h2>
+      <p style="font-size: 12px; color: #2c3a52;">End demo with Avatar video to <b>his</b> WhatsApp. "That's the first video you'll send a client this week."</p>
+    </div>
+    <div class="box">
+      <h2>Cohort Close</h2>
+      <p style="font-size: 12px; color: #2c3a52;">"Onboarding 12 MFDs this month. 3 in your city. Lock in this week or subscribe in 3 months when one eats your lunch." <i>(only if true)</i></p>
+    </div>
+    <div class="box">
+      <h2>120-Day Milestone</h2>
+      <p style="font-size: 12px; color: #2c3a52;">"If in 120 days you haven't added 25 investors or saved 5 hrs/week, I personally refund. Not a clause — me on WhatsApp."</p>
+    </div>
+  </div>
+
+  <div class="quote">
+    Coffee is for closers. Discounts are for calculators.
+    <span class="who">— MIDASX house rule</span>
+  </div>
+
+  <footer>
+    <span>Companion docs: <code>MFD-Personas.md</code> · <code>Sales-Closure-Tactics.md</code></span>
+    <span class="tagline">You bring the client. We'll crunch the math.</span>
+  </footer>
+</div>
+</body>
+</html>
